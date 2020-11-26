@@ -1,7 +1,7 @@
 <template>
 	<div class="post-list-wrapper-inner">
 		<h2 class="mb-5 text-2xl text-white">Sortable Post List</h2>
-		<!-- display post list -->
+		<!-- post list goes here -->
 		<div v-if="!errorMessage">
 			<div class="bg-white rounded-md shadow-lg flex justify-between py-2 px-4 mb-4 h-24 max-h-24 items-center" v-for="(post, index) in postListArray" v-bind:key="post.id">
 				<h4 class="text-lg text-gray w-11/12">{{ post.id }} {{ post.title }}</h4>
@@ -23,9 +23,9 @@
 	export default defineComponent({
 		props: ["postListArray", "errorMessage"],
 		methods: {
-			// post move up/down method
+			// post move up/down function
 			movePost(index, postTitle,id,moveType) {
-				this.$emit("move-post", { index, postTitle, id, moveType }); //sending data to parent component
+				this.$emit("move-post", { index, postTitle, id, moveType });
 			},
 		},
 	});

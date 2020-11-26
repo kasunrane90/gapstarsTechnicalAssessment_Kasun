@@ -2,10 +2,10 @@
 ## Gapstars Technical Assessment - Kasun
 Technical Assessment for Senior Frontend Developer (Vue.JS) - Gapstars
 
-## Solution explanation
+## Solution approach
 
-1. Divided Post list and Action list(history log) as two separate components in order to improve the readability of the code.
-2. Keep all the logic in PostHandler to avoid repeating codes in separate components
+1. To improve the readability of the code, divided the post list and action list as two separate components.
+2. Keep all the logic in PostHandler to avoid repeating codes in separate components.
 3. Placed arrayMove function in a shared folder, as it can be reused in any components. Even Though it is only used in the PostHandler component here in the assignment, I wanted to keep the best practice of reusing codes. Hence I implemented it in the same way. 
 4. Placed api url in a URL.ts file to improve the readability of the code.
 
