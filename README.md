@@ -17,11 +17,12 @@ Technical Assessment for Senior Frontend Developer (Vue.JS)
 
 ## Steps to run the project
 
-1. npm install **Note: Make sure you have a compatible node version (12+ recommended) installed in your system.
+1. npm install
+> Note: Make sure you have a compatible node version (12+ recommended) installed in your system.
 2. npm run serve
 
 
 ## Steps to run unit tests
 
 1. npm run test:unit
-**Note : Unit testing has been only written for the components and functions with logics as per the requirement.
+> Note : Unit testing has been only written for the components and functions with logics as per the requirement.
