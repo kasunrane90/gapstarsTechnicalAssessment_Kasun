@@ -1,5 +1,4 @@
-# posts-app
-## Gapstars Technical Assessment - Kasun
+# Gapstars Technical Assessment - Kasun (Posts App)
 Technical Assessment for Senior Frontend Developer (Vue.JS) - Gapstars
 
 ## Solution explanation
