@@ -11,6 +11,7 @@
 				</div>
 			</div>
 		</div>
+		<!-- showing error message when api call gets failed -->
 		<div v-if="errorMessage" class="bg-red-600 rounded-md py-4 px-6">
 			<p class="text-white">{{ errorMessage }}</p>
 		</div>
