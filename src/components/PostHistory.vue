@@ -11,6 +11,7 @@
 					<button class="py-2 px-4 rounded shadow-md text-white bg-green-500 hover:bg-green-700 w-40 w-3/12" @click="timeTravel(index, history.oldIndex, history.postId)">Time Travel</button>
 				</div>
 			</div>
+			<!-- if there is no action performed shows below message -->
 			<div class="no-items-wrapper" v-if="postHistory.length == 0">
 				<p>There are no any actions commited to show here..</p>
 			</div>
