@@ -1,5 +1,5 @@
-# Gapstars Technical Assessment - Kasun (Posts App)
-Technical Assessment for Senior Frontend Developer (Vue.JS)
+# Sortable Time Travel Posts
+Sortable time travel app for posts using VueJS
 
 ## Solution approach
 
